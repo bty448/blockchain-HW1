@@ -1,6 +1,6 @@
 *Ex 1*
 
-" ```solidity "
+```solidity
 @@ -190,6 +190,7 @@ contract MultiSigWallet {
          public
          returns (uint transactionId)
@@ -9,11 +9,11 @@
          transactionId = addTransaction(destination, value, data);
          confirmTransaction(transactionId);
      }
-" ``` "
+```
 
 *Ex 2*
 
-" ```solidity "
+```solidity
 @@ -108,6 +108,7 @@ contract ERC20 is Context, IERC20 {
       * - the caller must have a balance of at least `amount`.
       */
@@ -22,11 +22,11 @@
          _transfer(_msgSender(), recipient, amount);
          return true;
      }
-" ``` "
+```
 
 *Ex 3*
 
-" ```solidity "
+```solidity
 @@ -37,7 +37,7 @@ contract DividendToken is StandardToken, Ownable {
          }));
      }
@@ -36,4 +36,4 @@
          if (msg.value > 0) {
              emit Deposit(msg.sender, msg.value);
              m_totalDividends = m_totalDividends.add(msg.value);
-" ``` "
+```
