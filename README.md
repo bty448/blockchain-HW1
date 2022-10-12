@@ -1,4 +1,4 @@
-***Ex 1***
+# Ex 1
 
 ```solidity
 @@ -190,6 +190,7 @@ contract MultiSigWallet {
@@ -11,7 +11,7 @@
      }
 ```
 
-***Ex 2***
+# Ex 2
 
 ```solidity
 @@ -108,6 +108,7 @@ contract ERC20 is Context, IERC20 {
@@ -24,7 +24,7 @@
      }
 ```
 
-***Ex 3***
+# Ex 3
 
 ```solidity
 @@ -37,7 +37,7 @@ contract DividendToken is StandardToken, Ownable {
